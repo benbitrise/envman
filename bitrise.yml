@@ -99,3 +99,6 @@ workflows:
             go get -u -v github.com/golang/dep/cmd/dep
             dep ensure -v
             dep ensure -v -update
+meta:
+  bitrise.io:
+    machine_type_id: g2.4core
